@@ -1,0 +1,19 @@
+{
+  "name": "ai-cocainofy",
+  "version": "1.0.0",
+  "repository": "https://github.com/GuillaumeLeon/ai-cocainify",
+  "author": "GuillaumeLeon <Guillaume.Leon@pm.me>",
+  "license": "MPL-2.0",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "wxt": "^0.20.7"
+  }
+}
